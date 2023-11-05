@@ -55,7 +55,7 @@ def next_word(event=None):
     if current_word_idx < main_contest_word_count:
         user_input = entry.get()
         user_answers[main_contest_words[current_word_idx]] = user_input
-        if user_input.strip().lower() == main_contest_words[current_word_idx].lower():
+        if user_input == main_contest_words[current_word_idx]:
             main_contest_score += 1
         else:
             wrong_words.append((main_contest_words[current_word_idx], user_input))
