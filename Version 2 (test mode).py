@@ -20,7 +20,7 @@ def set_app_style():
     app.configure(bg="#2c3e50")
 
 def load_word_list(filename):
-    with open(filename, "r") as file:
+    with open(filename, "r", encoding="utf-8") as file:  # Specify UTF-8 encoding
         return [line.strip() for line in file]
 
 word_list = load_word_list("words.txt")
