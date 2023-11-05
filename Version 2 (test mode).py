@@ -1,4 +1,4 @@
-## Version one, feedback at END.
+## Version two. Test mode.
 
 import tkinter as tk
 from tkinter import scrolledtext
