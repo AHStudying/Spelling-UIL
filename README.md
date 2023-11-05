@@ -16,6 +16,8 @@ PSA: *All of this is for **main.py**. **Version 2.py** is if you want to take a 
 
 ## Demo
 
+I forgot the audio for this lol.
+
 https://github.com/Argyle-HS/Spelling-UIL/assets/104602895/0b3473e8-532f-42c7-9441-4363ee41446f
 
 
