@@ -51,7 +51,7 @@ def play_word(current_word):
 
 def check_word(user_input):
     if current_word_idx < main_contest_word_count:
-        if user_input.strip().lower() == main_contest_words[current_word_idx].lower():
+        if user_input == main_contest_words[current_word_idx]:
             return True
         else:
             wrong_words.append(main_contest_words[current_word_idx])
