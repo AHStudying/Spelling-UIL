@@ -1,4 +1,4 @@
-# Version 2
+# Study Mode
 
 import tkinter as tk
 from tkinter import scrolledtext
