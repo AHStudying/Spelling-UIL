@@ -26,11 +26,10 @@ def load_word_list(filename):
 
 word_list = load_word_list("words.txt")
 
-main_contest_words = []  # Initialize main_contest_words as a global list
+main_contest_words = []
 
-# Initialize pyttsx3
 engine = pyttsx3.init()
-engine.setProperty("rate", 150)  # Adjust the speaking rate as needed
+engine.setProperty("rate", 150)
 
 def select_words(start_index, end_index, num_words=70):
     if 1 <= start_index <= end_index <= len(word_list):
@@ -53,7 +52,6 @@ def play_word(current_word):
     except PermissionError:
         pass
 
-# Initialize main contest variables
 current_word_idx = 0
 pronounced = False
 wrong_words = []
